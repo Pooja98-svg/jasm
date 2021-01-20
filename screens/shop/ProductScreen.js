@@ -48,7 +48,7 @@ const ProductScreen = props => {
               data= {displayproduct}
               num numColumns={2}
               keyExtractor={item => item.id}
-              renderItem={itemData  => (
+              renderItem={itemData  => (  
                  <ProductItem
                  Image={itemData.item.productimage}
                 name={itemData.item.productname}
